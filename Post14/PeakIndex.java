@@ -6,7 +6,7 @@ public class PeakIndex {
         System.out.println("Peak Index : "+ binarySearch(arr));
     }
     static int binarySearch(int[] arr){
-        int start = 0;
+         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
             int mid = start + (end - start) / 2;
