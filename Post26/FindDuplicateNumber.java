@@ -1,7 +1,5 @@
 package Post26;
 
-import java.util.Arrays;
-
 public class FindDuplicateNumber {
 
     public static void main(String[] args) {
