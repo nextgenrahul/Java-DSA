@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Post37.Main",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "TimeAndSpaceProblems",
+            "request": "launch",
+            "mainClass": "Post37.TimeAndSpaceProblems",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
             "name": "Fibo",
             "request": "launch",
             "mainClass": "Post37.Fibo",
