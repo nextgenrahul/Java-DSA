@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LearnTimeAndSpace",
+            "request": "launch",
+            "mainClass": "Post38.LearnTimeAndSpace",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Post37.Main",
