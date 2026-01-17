@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WrapperExample",
+            "request": "launch",
+            "mainClass": "Post39.WrapperExample",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "Dog",
+            "request": "launch",
+            "mainClass": "Post39.Dog",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "StudentClass",
+            "request": "launch",
+            "mainClass": "Post39.StudentClass",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "SCheck",
+            "request": "launch",
+            "mainClass": "Post39.SCheck",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Post39.Main",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
             "name": "LearnTimeAndSpace",
             "request": "launch",
             "mainClass": "Post38.LearnTimeAndSpace",
