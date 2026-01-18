@@ -1,0 +1,13 @@
+Package in Java is a namespace that organizes a set of related classes and interfaces. Conceptually, you can think of packages as being similar to different folders on your computer. Just as folders help you organize files, packages help you organize your Java classes and interfaces into a structured hierarchy.
+Using packages has several benefits:
+1. **Namespace Management**: Packages help avoid name conflicts by grouping related classes and interfaces together. For example, you can have two classes with the same name in different packages without any conflict.
+2. **Access Control**: Packages provide a way to control access to classes and members. Classes and members can have different access levels (public, protected, default, private) that determine their visibility within the package and to other packages.
+3. **Organization**: Packages help in organizing your code logically. This makes it easier to locate and manage classes, especially in large projects.
+4. **Reusability**: By grouping related classes into packages, you can easily reuse them in different   projects without having to copy and paste code.
+To declare a package in a Java source file, you use the `package` keyword followed by the package name at the very top of the file. For example:
+```java
+package com.example.myapp;
+public class MyClass {
+    // class implementation
+}
+``
