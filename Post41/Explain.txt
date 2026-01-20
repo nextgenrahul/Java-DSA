@@ -1,0 +1,1 @@
+#Inheritance : Child class inherits properties and behaviors from a parent class. You incorporate the parent class into the child class using the 'extends' keyword.
