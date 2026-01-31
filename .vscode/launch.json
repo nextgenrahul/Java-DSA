@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Post41.Polymorphism.Main",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Post41.Inheritance.Main",
             "projectName": "Java-DSA_6d75f5e0"
         },

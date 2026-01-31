@@ -2,6 +2,9 @@ package Post41.Inheritance;
 
 public class BoxWeight extends Box {
     double weight;
+    double h;
+    double l;
+    double w;
 
     public BoxWeight() {
         this.weight = -1;
@@ -23,12 +26,16 @@ public class BoxWeight extends Box {
     }
 
     public BoxWeight(double l, double h, double w, double weight) {
-        super(l, h, w);// this super method call the parent call constructor # super() must be the
+        // super(l, h, w);// this super method call the parent call constructor # super() must be the
                        // first statement in a constructor. Because the parent part of the object must
                        // be created first.
         // Used to initialize values present in parent class
         // this.weight = weight;
-        System.out.println(super.weight); // If you specifically target weight in super class then you have to use
+        this.l = l;
+        this.h = h;
+        this.w = w;
+        // this.weight = weight;
+        // System.out.println(super.weight); // If you specifically target weight in super class then you have to use
                                           // weight otherwise this
     }
 

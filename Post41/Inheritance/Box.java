@@ -1,7 +1,7 @@
 package Post41.Inheritance;
 
 public class Box {
-    private double l;
+    double l;
     double h;
     double w;
     double weight;
@@ -14,7 +14,7 @@ public class Box {
 
     // Cube
     Box(double side) {
-        // super() = “build the parent part of me first”
+        // super() = “build the parent   part of me first”
         // If parent is Object, it’s harmless but required
         // Java adds it automatically if you don’t
         // super();
@@ -23,16 +23,17 @@ public class Box {
         this.h = side;
     }
 
-    Box(double l, double h, double w) {
+    Box(double l, double h, double w, double weight) {
         this.l = l;
         this.h = h;
         this.w = w;
+        this.weight = weight;
     }
 
     Box(Box old) {
-        this.h = old.h;
-        this.l = old.l;
         this.w = old.w;
+        this.l = old.l;
+        this.h = old.h;
     }
 
     public void information() {

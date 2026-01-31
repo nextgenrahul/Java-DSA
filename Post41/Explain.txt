@@ -1,1 +1,10 @@
 #Inheritance : Child class inherits properties and behaviors from a parent class. You incorporate the parent class into the child class using the 'extends' keyword.
+
+# Polymorphism : The ability of different classes to be treated as instances of the same class through a common interface. It allows methods to do different things based on the object it is acting upon, even if they share the same name.
+
+type of Polymorphism : 
+ 1. Compile time Polymorphism/ Static Polymorphism (Method Overloading) : multiple constructors or methods with the same name but different parameters..
+ 2. Run time Polymorphism / Dynamic Polymorphism (Method Overriding) :
+        The child class overrides the parent class method with a different implementation.
+
+ 
