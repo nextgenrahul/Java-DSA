@@ -6,5 +6,65 @@ type of Polymorphism :
  1. Compile time Polymorphism/ Static Polymorphism (Method Overloading) : multiple constructors or methods with the same name but different parameters..
  2. Run time Polymorphism / Dynamic Polymorphism (Method Overriding) :
         The child class overrides the parent class method with a different implementation.
-
+ 3. Polymorphism does not apply on instance variables.
  
+ Early Binding vs Late Binding :
+ Early Binding (Compile time) : The method to be invoked is determined at compile time. This is associated with method overloading.
+ Late Binding (Run time) : The method to be invoked is determined at runtime. This is associated with method overriding.
+       Example of Inheritance and Polymorphism in Java:
+```java
+// Parent class
+class Animal {
+       void sound() {
+           System.out.println("Animal makes a sound");
+       }             
+}
+// Child class
+class Dog extends Animal {
+       void sound() { // Method Overriding
+                 System.out.println("Dog barks");
+       }
+}
+class Cat extends
+       Animal {
+              void sound() { // Method Overriding
+                     System.out.println("Cat meows");
+              }
+       }
+public class Main {
+       public static void main(String[] args) {
+              Animal myDog = new Dog(); // Upcasting
+              Animal myCat = new Cat(); // Upcasting
+
+              myDog.sound(); // Outputs: Dog barks
+              myCat.sound(); // Outputs: Cat meows
+       }
+}
+```
+In this example, the `Animal` class is the parent class, and `Dog` and `Cat` are child classes that inherit from `Animal`. The `sound` method is overridden in each child class, demonstrating polymorphism. When we call the `sound` method on an `Animal` reference, the appropriate method for the actual object type (either `Dog` or `Cat`) is invoked at runtime, showcasing dynamic polymorphism.
+
+
+# Encapsulation : The concept of wrapping data (variables) and methods (functions) together into a single unit known as a class. It restricts direct access to some of the object's components, which can prevent the accidental modification of data. Access to the data is typically provided through public methods (getters and setters).
+
+# Abstraction : The concept of hiding the complex implementation details and showing only the essential features of the object. It helps in reducing programming complexity and effort. In Java, abstraction is achieved using abstract classes and interfaces.
+
+
+// Access Modifiers in java : 
+| Modifiers  | Class | Package | Subclass(Same Package) | Subclass(Different Package ) | World (Different Package & not even Subclass)|            
+-------------------------------------------------------------------------------------------------------------------------------
+| public     |  Y    |   Y     |          Y             |            Y                |                Y                    |
+| protected  |  Y    |   Y     |          Y             |            Y                |                N                    |
+| default    |  Y    |   Y     |          Y             |            N                |                N                    |
+| private    |  Y    |   N     |          N             |            N                |                N                    |
+
+
+# Packages in Java : 
+1. In-built Packages : Java provides a rich set of built-in packages like java.lang, java.util, java.io, etc.
+2. User-defined Packages : You can create your own packages to organize your classes and interfaces.
+
+                                                In-built Package
+                                                       |
+--------------------------------------------------------------------------------------------------------------
+|                |                 |                  |                   |                    |                    |
+java.lang      java.util        java.io          java.net           java.sql           java.math                
+|                |                 |                  |                   |                    |                    |

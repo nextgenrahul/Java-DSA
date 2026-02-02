@@ -12,6 +12,10 @@ public class Box {
         this.w = -1;
     }
 
+    static void greeting(){
+        System.out.println("Hey, I am in box. Greeting");
+    }
+
     // Cube
     Box(double side) {
         // super() = “build the parent   part of me first”

@@ -25,18 +25,26 @@ public class BoxWeight extends Box {
 
     }
 
+    // overriding depend on object and static does not depend on object hence static method cannot be override
+    // @Override
+    // static void greeting() {
+    //     System.out.println("Hey, I am in box. Greeting");
+    // }
+
     public BoxWeight(double l, double h, double w, double weight) {
-        // super(l, h, w);// this super method call the parent call constructor # super() must be the
-                       // first statement in a constructor. Because the parent part of the object must
-                       // be created first.
+        // super(l, h, w);// this super method call the parent call constructor #
+        // super() must be the
+        // first statement in a constructor. Because the parent part of the object must
+        // be created first.
         // Used to initialize values present in parent class
         // this.weight = weight;
         this.l = l;
         this.h = h;
         this.w = w;
         // this.weight = weight;
-        // System.out.println(super.weight); // If you specifically target weight in super class then you have to use
-                                          // weight otherwise this
+        // System.out.println(super.weight); // If you specifically target weight in
+        // super class then you have to use
+        // weight otherwise this
     }
 
 }

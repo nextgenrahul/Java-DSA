@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ObjectDemo",
+            "request": "launch",
+            "mainClass": "Post41.Access.ObjectDemo",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "NotSubClass",
+            "request": "launch",
+            "mainClass": "Post41.Polymorphism.NotSubClass",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "SubClass",
+            "request": "launch",
+            "mainClass": "Post41.Polymorphism.SubClass",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "SubClass",
+            "request": "launch",
+            "mainClass": "Post41.Access.SubClass",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Post41.Access.Main",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "ObjectPrint",
+            "request": "launch",
+            "mainClass": "Post41.Polymorphism.ObjectPrint",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Post41.Polymorphism.Main",
