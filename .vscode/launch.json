@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Post42.AbstractDemo.Main",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
             "name": "ObjectDemo",
             "request": "launch",
             "mainClass": "Post41.Access.ObjectDemo",

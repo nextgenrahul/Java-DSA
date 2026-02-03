@@ -1,0 +1,2 @@
+Abstract Method: A method that is declared without an implementation. Abstract methods are typically used in abstract classes or interfaces, requiring subclasses to provide a concrete implementation.
+and any class that containes an abstract method must also be declared as abstract. Abstract methods cannot be instantiated directly and are meant to be overridden in derived classes.
