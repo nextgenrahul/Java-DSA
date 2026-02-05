@@ -1,0 +1,35 @@
+Generics in java: Generics is a feature in Java that allows developers to define classes, interfaces, and methods with a placeholder for the type of data they operate on. This enables code reusability and type safety by allowing the same code to work with different data types without the need for casting or creating multiple versions of the same code.
+Here are some key points about generics in Java:
+1. Type Parameters: Generics use type parameters, which are specified within angle brackets (<>). For example, a generic class can be defined as `class Box<T>`, where `T` is a type parameter that can be replaced with any data type when the class is instantiated.
+2. Type Safety: Generics provide compile-time type checking, which helps catch type-related errors
+before the code is run. This reduces the risk of `ClassCastException` at runtime.
+3. Code Reusability: With generics, you can create a single class or method that works with different data types, promoting code reusability and reducing redundancy.
+4. Collections Framework: The Java Collections Framework extensively uses generics to provide type-safe collections. For example, you can create a list of strings using `List<String>` or a list of integers using `List<Integer>`.
+5. Bounded Type Parameters: Generics allow you to specify bounds for type parameters using the `extends` keyword. For example, `class Box<T extends Number>` restricts the type parameter   `T` to be a subclass of `Number`.
+6. Wildcards: Generics support wildcards, which are represented by the `?` symbol. Wildcards allow for more flexible method definitions. For example, `List<? extends Number>` can accept a list of any type that is a subclass of `Number`.
+7. Type Erasure: Java implements generics using a mechanism called type erasure, which means that generic type information is removed at runtime. This allows for backward compatibility with older versions of Java that do not support generics.
+Overall, generics in Java enhance code quality by providing type safety, reducing redundancy, and promoting code reusability. They are widely used in the Java programming language, especially in the Collections Framework.
+Example of a generic class in Java:
+```javapublic class Box<T> {
+    private T item; 
+    public void setItem(T item) {
+        this.item = item;
+    }
+    public T getItem() {
+        return item;
+    }
+}
+```
+In this example, `Box` is a generic class with a type parameter `T`. You
+can create instances of `Box` for different data types:
+```javapublic class Main {
+    public static void main(String[] args) {
+        Box<String> stringBox = new Box<>();        
+        stringBox.setItem("Hello, Generics!");
+        System.out.println(stringBox.getItem());
+        Box<Integer> integerBox = new Box<>();
+        integerBox.setItem(123);
+        System.out.println(integerBox.getItem());
+    }
+}
+```
