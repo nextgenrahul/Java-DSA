@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CustomGenArrayList",
+            "request": "launch",
+            "mainClass": "Post43.generics.CustomGenArrayList",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
             "name": "CustomArrayList",
             "request": "launch",
             "mainClass": "Post43.generics.CustomArrayList",
