@@ -10,11 +10,16 @@ public class Student implements Comparable<Student> {
     }
 
     @Override
+    public String toString() {
+        return marks + "";
+    }
+
+    @Override
     public int compareTo(Student o) {
         int diff = (int)(this.marks - o.marks);
         return diff;
     }
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
         
-    }
+    // }
 }

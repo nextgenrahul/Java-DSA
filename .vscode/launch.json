@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Post43.Cloneing.Main",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Post43.ExceptionHandling.Main",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "LambdaFunctions",
+            "request": "launch",
+            "mainClass": "Post43.generics.LambdaFunctions",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Post43.generics.PackageComplaring.Main",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
             "name": "CustomGenArrayList",
             "request": "launch",
             "mainClass": "Post43.generics.CustomGenArrayList",
