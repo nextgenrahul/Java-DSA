@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "Post44.EnumExample.Basic",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Post44.Collections.Main",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Post43.Cloneing.Main",
