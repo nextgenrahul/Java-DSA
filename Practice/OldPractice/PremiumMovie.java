@@ -1,4 +1,4 @@
-package Practice;
+package Practice.OldPractice;
 public class PremiumMovie extends Movie {
     private boolean has3D;
     

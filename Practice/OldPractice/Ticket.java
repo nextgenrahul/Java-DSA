@@ -1,4 +1,4 @@
-package Practice;
+package Practice.OldPractice;
 public class Ticket {
     int seatNumber;
     public Ticket(int seatNumber){

@@ -1,4 +1,4 @@
-package Practice;
+package Practice.OldPractice;
 import java.util.ArrayList;
 
 class ArrayLists {

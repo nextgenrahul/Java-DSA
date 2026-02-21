@@ -1,4 +1,4 @@
-package Practice;
+package Practice.OldPractice;
 public class Main extends Movie {
     private boolean has3D;
 

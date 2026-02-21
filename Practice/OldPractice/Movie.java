@@ -1,4 +1,4 @@
-package Practice;
+package Practice.OldPractice;
 public class Movie {
     private String title;
     private String genre;
