@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java-DSA_6d75f5e0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Practice.Oops.Main",
             "projectName": "Java-DSA_6d75f5e0"
         },
