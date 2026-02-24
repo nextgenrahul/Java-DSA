@@ -1,5 +1,3 @@
-package Practice.Oops;
-
 public class Car { // Class keyword + name (convention : PascalCase)
 
     // Fields (Properties/State)

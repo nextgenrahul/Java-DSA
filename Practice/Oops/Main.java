@@ -26,14 +26,17 @@ public class Main {
 
 
         // Encapsulation
-        BankAccount acc = new BankAccount("Rahul Shakya", "1234567890321", 100000);
-        System.out.println(acc);
-        acc.deposit(2000);
-        acc.withdraw(1000);
-        System.out.println("Current balance: ₹" + acc.getBalance());
+
+        // BankAccount acc = new BankAccount("Rahul Shakya", "1234567890321", 100000);
+        // System.out.println(acc);
+        // acc.deposit(2000);
+        // acc.withdraw(1000);
+        // System.out.println("Current balance: ₹" + acc.getBalance());
         
-        acc.setAccountHolder("Rahul K. Sharma");
-        System.out.println(acc);
+        // acc.setAccountHolder("Rahul K. Sharma");
+        // System.out.println(acc);
+
+        
     }
 
 }
