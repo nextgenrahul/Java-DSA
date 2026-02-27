@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Abstraction.Main",
+            "projectName": "Java-DSA_7f019609"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Inheritance.Main",
             "projectName": "Java-DSA_7f019609"
         },
